@@ -12,7 +12,7 @@ const openai = new OpenAIApi(configuration);
 
 const instructionMessage: ChatCompletionRequestMessage = {
     role:"system",
-    content:'You are a good generator. You must answer only in markdown code snippets. Use code comments for explainations.'
+    content:'You are a code generator. You must answer only in markdown code snippets. Use code comments for explainations.'
 }
 
 
